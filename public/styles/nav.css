@@ -10,6 +10,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5em;
+  position: fixed; /* Add this line */
+  top: 0; /* Add this line to fix the nav-bar at the top */
 }
 
 /* Style the <span> within the <nav> (tweeter title) */

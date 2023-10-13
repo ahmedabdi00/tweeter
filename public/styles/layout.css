@@ -29,3 +29,13 @@ body {
 nav .tweeter-logo {
   font-family: 'Bungee', sans-serif;
 }
+
+/* layout.css */
+
+/* Style the main element */
+main {
+  width: 90%; /* 90% of the width of its parent element */
+  margin: 0 auto; /* Center aligned to the body */
+  background-color: #f4f1ec; /* Same background color as the <body> element */
+  padding: 20px; /* Add some padding for spacing, adjust as needed */
+}
