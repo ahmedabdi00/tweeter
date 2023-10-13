@@ -18,8 +18,14 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans 3', sans-serif; /* Apply Source Sans 3 to the entire page */
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+/* Apply Bungee to the Tweeter logo in the nav */
+nav .tweeter-logo {
+  font-family: 'Bungee', sans-serif;
+}

@@ -1,0 +1,30 @@
+/* nav.css */
+
+/* Set the height, background color, and font color for the nav */
+nav {
+  height: 120px;
+  width: 100%;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5em;
+}
+
+/* Style the <span> within the <nav> (tweeter title) */
+nav span {
+  font-family: 'Bungee', sans-serif;
+}
+
+/* Style the "Write a new tweet" container */
+.new-tweet {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the icon */
+.new-tweet i {
+  font-size: 1.5em;
+  margin-left: 5px;
+}
