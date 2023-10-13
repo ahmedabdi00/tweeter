@@ -1,0 +1,47 @@
+/* new-tweet.css */
+
+/* Styling for the new-tweet section */
+section.new-tweet {
+  background-color: #E7E7E7; /* Background color similar to the header */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: flex-start;
+}
+
+/* Style for the "Compose Tweet" heading */
+section.new-tweet h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Style for the "What are you humming about?" label */
+section.new-tweet label {
+  margin: 10px 0;
+  border-bottom: 1px solid #000; /* Adds a bottom border under the label */
+  display: block;
+}
+
+/* Style for the textarea */
+section.new-tweet textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Style for the "Tweet" button */
+section.new-tweet button {
+  background-color: #4056A1; /* Background color similar to the header */
+  color: #FFFFFF; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  align-self: flex-start; /* Positions the button to the left */
+  cursor: pointer;
+}
+
+/* Style for the character count */
+section.new-tweet .counter {
+  align-self: flex-end; /* Positions the counter to the far right */
+}
