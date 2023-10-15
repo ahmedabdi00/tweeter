@@ -45,3 +45,7 @@ section.new-tweet button {
 section.new-tweet .counter {
   align-self: flex-end; /* Positions the counter to the far right */
 }
+
+.red-text {
+  color: red;
+}
