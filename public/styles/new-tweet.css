@@ -145,18 +145,24 @@ article.tweet .tweet-footer-icons {
   bottom: 1px; 
 }
 
-.tweet-footer-icons .fa-flag:hover {
+/* Font Awesome icons inside .error-container */
+.error-container i.fas.fa-flag:hover {
   color: blue;
 }
 
-.tweet-footer-icons .fa-repeat:hover {
+.error-container i.fas.fa-repeat:hover {
   color: green;
 }
 
-.tweet-footer-icons .fa-heart:hover {
+.error-container i.fas.fa-heart:hover {
   color: red;
 }
 
+
 article.tweet:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.red-text {
+  color: red;
 }
