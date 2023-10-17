@@ -68,6 +68,7 @@ main.container {
 article.tweet {
   margin-top: 10px;
   border: 1px solid #ccc;
+  height: auto;
   border-radius: 5px;
   padding: 10px;
   transition: all 0.3s;
@@ -165,4 +166,17 @@ article.tweet:hover {
 
 .red-text {
   color: red;
+}
+
+
+.profile-pic-username {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.tweet-header {
+  display: flex;
+  flex-direction: row;
 }

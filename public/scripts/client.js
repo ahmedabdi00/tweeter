@@ -11,7 +11,7 @@ a friendly X days ago time frame
 const createTweetElement = (data) => {
   const newTweet = `
                     <article class="tweet">
-                      <header class="flex-container-row">
+                      <header class="tweet-header flex-container-row">
                         <div class="profile-pic-username flex-container-row">
                           <img src="${data.user.avatars}"/>
                           <p>${data.user.name}</p>

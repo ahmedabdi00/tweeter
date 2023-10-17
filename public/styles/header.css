@@ -1,10 +1,11 @@
 /* header.css */
 
 /* Styling the header element */
-header {
+.header {
   height: 400px;
   width: 100%;
-  background-image: url('public/images/background.png'); /* Path to your background image */
+  background-color:#3498db ;
+  background-image:url("https://www.transparenttextures.com/patterns/batthern.png"); /* Path to your background image */
   background-size: cover; /* Adjust this as needed */
   display: flex;
   flex-direction: column;
@@ -13,14 +14,12 @@ header {
 }
 
 /* Styling the avatar */
-header img {
-  width: 120px; /* Adjust the width as needed */
-  height: 120px; /* Adjust the height as needed */
+.header img {
   border-radius: 50%; /* Makes it a circle */
 }
 
 /* Styling the name */
-header h2 {
+.header h2 {
   margin-top: 20px; /* Adjust the margin as needed */
   font-size: 24px; /* Adjust the font size as needed */
   color: #545149; /* Choose your desired text color */
