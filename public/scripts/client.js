@@ -59,7 +59,11 @@ const loadTweets = () => {
   $.get('/tweets').then((data) => {
     renderTweets(data);
     $( '#tweet-text' ).val('');
-  });
+  })
+  .catch(err =>{
+    console.log(err)
+    newTweetError ("Error Loading Tweets" )
+  })  
 };
 /* 
 Makes get request to tweets database at /tweets
@@ -71,7 +75,11 @@ const loadNewTweet = () => {
     renderTweet(data[data.length - 1]);
     $( '#tweet-text' ).val('');
     $( 'output.counter' ).val(140);
-  });
+  })
+  .catch(err =>{
+    console.log(err)
+    newTweetError ("Error Loading Tweets" )
+  })  
 };
 /* 
 Function escapes the string inputted by the user to avoid any
@@ -143,7 +151,11 @@ $( document ).ready(function() {
     $.post('/tweets/', tweetData).then(() => {
       loadNewTweet();
       closeNewTweetError();
-    });
+    })
+    .catch(err =>{
+      console.log(err)
+      newTweetError ("Error Submitting Tweet" )
+    })  
   });
 
 });

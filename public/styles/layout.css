@@ -19,6 +19,13 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans 3', sans-serif; /* Apply Source Sans 3 to the entire page */
+  display: flex;
+  flex-direction: column;
+
+
+
+
+
 }
 
 /*
@@ -29,6 +36,7 @@ body {
 nav .tweeter-logo {
   font-family: 'Bungee', sans-serif;
 }
+
 
 /* Style the main element */
 main {
